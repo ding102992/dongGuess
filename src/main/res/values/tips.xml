@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="selected_full">已经选满啦！</string>
+    <string name="toast_username_require">用户名不可为空</string>
+    <string name="toast_username_format">请输入正确的邮箱</string>
+    <string name="toast_password_require">请完整输入密码</string>
+    <string name="toast_password_not_same">用户名不可为空</string>
+    <string name="toast_password_too_short">用户名不可为空</string>
+    <string name="toast_register_success">注册成功</string>
+    <string name="toast_register_fail">注册失败</string>
+
+</resources>

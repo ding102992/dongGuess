@@ -1,0 +1,20 @@
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/index_background"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        >
+        <include layout="@layout/title_bar"/>
+        <include layout="@layout/cd_player" />
+        <include layout="@layout/name_select"/>
+
+    </LinearLayout>
+    <include layout="@layout/func_btns"/>
+    <include layout="@layout/pass_stage"/>
+
+</FrameLayout>

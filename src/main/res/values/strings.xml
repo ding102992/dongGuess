@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">栋栋来猜歌</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="pass_title1">您已击败全国</string>
+    <string name="pass_title2">%的玩家</string>
+    <string name="song">歌曲</string>
+    <string name="reward">奖励：</string>
+    <string name="ans_correct">答案正确</string>
+    <string name="multi_symbol">×</string>
+    <string name="reg_username">用户名</string>
+    <string name="reg_username_hint">请输入邮箱</string>
+    <string name="reg_password_1">密码</string>
+    <string name="reg_password_hint">请输入密码</string>
+    <string name="reg_password_2">重复密码</string>
+    <string name="reg_password_repeat_hint">请再次输入密码</string>
+    <string name="register">注册</string>
+
+
+</resources>

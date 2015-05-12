@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@drawable/buytip_bg"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="提示"
+        android:textSize="24sp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/txt_dia_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="您确定要花30金币购买提示吗？"
+        android:textSize="18sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="@color/black"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+        <ImageButton
+            android:id="@+id/dia_btn_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dia_no_btn"
+            android:layout_marginRight="10dp"/>
+        <ImageButton
+            android:id="@+id/dia_btn_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dia_yes_btn"/>
+
+        </LinearLayout>
+</LinearLayout>
